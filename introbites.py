@@ -51,3 +51,18 @@ GAME_STATS = dict(sara=0, bob=1, tim=5, julian=3, jim=1)
 #     for name, num_games in games_won.items():
 #         games = "game" if num_games == 1 else "games"
 #         print(f'{name} has won {num_games} {games}')
+
+
+# MESSAGE = """Hello world!
+# We hope that you are learning a lot of Python.
+# Have fun with our Bites of Py.
+# Keep calm and code in Python!
+# Become a PyBites ninja!"""
+#
+# def split_in_columns(message=MESSAGE):
+#     """Split the message by newline (\n) and join it together on '|'
+#        (pipe), return the obtained output string"""
+#     newMessage = message.split('\n')
+#     glue = '|'
+#     return glue.join(newMessage)
+#     repr(``)
