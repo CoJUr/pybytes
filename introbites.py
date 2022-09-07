@@ -29,7 +29,7 @@
 #
 #         print(color)
 
-GAME_STATS = dict(sara=0, bob=1, tim=5, julian=3, jim=1)
+# GAME_STATS = dict(sara=0, bob=1, tim=5, julian=3, jim=1)
 
 
 # def print_game_stats(games_won):
@@ -66,3 +66,10 @@ GAME_STATS = dict(sara=0, bob=1, tim=5, julian=3, jim=1)
 #     glue = '|'
 #     return glue.join(newMessage)
 #     repr(``)
+
+# strip off any leading spaces,
+# check if the first character is lowercase,
+# if so, split the line into words and get the last word,
+# strip off BOTH the trailing dot (.) and exclamation mark (!) from this last word,
+# and finally add it to the results list.
+# Return the results list.
