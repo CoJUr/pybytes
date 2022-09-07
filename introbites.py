@@ -1,6 +1,6 @@
 #
 #
-#F-string and simple if/else:
+# F-string and simple if/else:
 # MIN_DRIVING_AGE = 18
 #
 #
@@ -73,3 +73,24 @@
 # strip off BOTH the trailing dot (.) and exclamation mark (!) from this last word,
 # and finally add it to the results list.
 # Return the results list.
+
+# print("Hello Python world")
+
+message = "Hello Python world"
+print(message)
+
+message = "Hello Python Crash Course world!"
+print(message)
+
+# reserved words:
+# False await else import pass
+# None break except in raise
+# True class finally is return
+# and continue for lambda try
+# as def from nonlocal while
+# assert del global not with
+# async elif if or yield
+
+message = "Hello Python Crash Course reader!"
+print(mesage)
+
